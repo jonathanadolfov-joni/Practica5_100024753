@@ -24,6 +24,3 @@ La página trata sobre Steve Jobs y su importancia en la historia de la tecnolog
 
 Jonathan Adolfo Villarreal Mancilla
 
-## Matrícula
-
-100024753
