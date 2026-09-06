@@ -1,0 +1,158 @@
+/* Quitar espacios que trae el navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #444;
+}
+
+h3 {
+    color: #555;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* Encabezado */
+#encabezado {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* El ID tiene mayor especificidad que h1 */
+#titulo {
+    color: #ffffff;
+}
+
+/* El p que está dentro del encabezado */
+#encabezado p {
+    color: #ddd;
+}
+
+/* Menú */
+nav {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Cuando pasamos el mouse por encima */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Primera clase */
+.destacado {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Tarjetas */
+.tarjeta {
+    background-color: #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+/* Lista */
+ul {
+    margin: 15px 0 15px 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+    color: #0066cc;
+}
+
+/* El enlace del menú conserva el color blanco */
+nav a {
+    color: white;
+}
+
+/* Aside */
+aside {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+#pie {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#pie p {
+    margin-bottom: 5px;
+}
